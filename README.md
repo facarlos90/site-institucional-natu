@@ -1,12 +1,16 @@
-# Site Institucional da Loja Empório Natu
+# Site Institucional
 
-[Banner de fundo preto com logo da empresa Empório Natu](https://github.com/facarlos90/site-institucional-natu/assets/126310044/012e524f-2399-4d3f-8709-b5954b96d190)
+<div align="center">
+
+![banner_readme_site)natu](https://github.com/facarlos90/site-institucional-natu/assets/126310044/4dbf61c7-ef8d-46de-92c3-7ea3cb833c4d)
+
+</div>
 
 <p align="center">
 <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
 </p>
 
-Projeto em desenvolvimento para colocar em prática e fixar o conhecimento adquirido nos Cursos básicos de HTML e CSS da Alura.
+Projeto em desenvolvimento para colocar em prática e fixar o conhecimento adquirido nos Cursos básicos de Git, GitHub, HTML e CSS da Alura. 
 Trata-se de um site institucional para a empresa de produtos naturais, em que trabalho atualmente.
 
 O site permitirá que as pessoas encontrem de uma maneira intuitiva e amigável, informações sobre a empresa, sua história, missão, visão e valores, bem como os produtos e serviços que oferecemos.

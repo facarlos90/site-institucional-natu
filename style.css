@@ -146,3 +146,41 @@ body {
     color: var(--cor-texto);
 
 }
+
+@media (max-width: 1200px) {
+
+    .cabecalho {
+        padding: 5% 0% 20% 0%;
+    }
+
+    .cabecalho__menu {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 13px;
+    }
+
+    .apresentacao {
+        flex-direction: column;
+    }  
+
+    .apresentacao__historia {
+        order: 2;
+        width: auto;
+    }
+}
+    .apresentacao__imagem {
+            width: 75%;
+            order: 1;
+    }
+
+    .apresentacao__missao {
+        order: 3;
+    }
+
+    .apresentacao__links__navegacao {
+        width: 95%;
+    }
+
+    .rodape {
+        padding: 30% 0% 5% 0%;    
+    }

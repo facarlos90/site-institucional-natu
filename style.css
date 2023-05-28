@@ -5,6 +5,7 @@
     --cor-texto: #EDE4E0;
     --cor-bordas: #DEAB73;
     --cor-acao: #7FCD91;
+    --cor-hover: #C8DBBE;
     --cor-destaque: #9F8772;
     --cor-avaliacoes: #202124;
 
@@ -23,19 +24,111 @@ body {
 }
 
 .cabecalho {
-    padding: 2% 0% 0% 15%;
+    padding: 2% 15% 0% 15%;
 }
 
 .cabecalho__menu {
     display: flex;
-    gap: 60px;
+    justify-content: space-between;
+    /* gap: 50px; */
 }
 
 .cabecalho__menu__link {
     font-family: var(--fonte-primaria);
     font-size: 1.5rem;
     font-weight: 600;
-
     text-decoration: none;
+}
 
+.cabecalho__menu__link:hover {
+    color: var(--cor-acao);
+}
+
+.apresentacao {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5% 10%;
+    gap: 100px;
+}
+
+.apresentacao__historia {
+    width: 50%;
+    order: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.apresentacao__historia__titulo {
+    font-size: 2.25rem;
+    font-family: var(--fonte-primaria);
+    font-weight: 600;
+}
+
+.apresentacao__historia__texto {
+    font-family: var(--fonte-primaria);
+    font-size: 1.5rem;
+}
+
+.apresentacao__imagem {
+    width: 30%;
+    align-self: center;
+    order: 1;
+}
+
+.apresentacao__missao {
+    width: auto;
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    text-align: center;
+}
+
+.apresentacao__missao__titulo {
+    font-family: var(--fonte-primaria);
+    font-size: 2.25rem;
+    font-weight: 600;
+}
+
+.apresentacao__missao__texto {
+    font-family: var(--fonte-primaria);
+    font-size: 1.5rem;
+    gap: 32px;
+}
+
+.apresentacao__links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    margin-top: 5%;
+}
+
+.apresentacao__links__subtitulo {
+    font-family: var(--fonte-primaria);
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.apresentacao__links__navegacao {
+    font-family: var(--fonte-primaria);
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    background-color: var(--cor-acao);
+    color: var(--cor-fundo);
+    /* border: 2px solid var(--cor-bordas); */
+    border-radius: 8px;
+    padding: 21.5px 0;
+    width: 25%;
+    gap: 16px;
+}
+
+.apresentacao__links__navegacao:hover {
+    background-color: var(--cor-hover);
+    font-size: 1.75rem;
+    border: 2px solid var(--cor-bordas);
 }

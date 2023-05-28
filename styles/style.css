@@ -127,6 +127,8 @@ body {
     padding: 21.5px 0;
     width: 25%;
     gap: 16px;
+    display: flex;
+    justify-content: center;
 }
 
 .apresentacao__links__navegacao:hover {

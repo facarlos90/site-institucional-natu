@@ -55,7 +55,7 @@ body {
     gap: 100px;
 }
 
-.apresentacao__historia {
+.apresentacao__principal {
     width: 50%;
     order: 1;
     display: flex;
@@ -63,13 +63,14 @@ body {
     gap: 32px;
 }
 
-.apresentacao__historia__titulo {
+.apresentacao__principal__titulo {
     font-size: 2.25rem;
     font-family: var(--fonte-primaria);
     font-weight: 600;
+    text-align: center  ;
 }
 
-.apresentacao__historia__texto {
+.apresentacao__principal__texto {
     font-family: var(--fonte-primaria);
     font-size: 1.5rem;
 }
@@ -80,7 +81,7 @@ body {
     order: 1;
 }
 
-.apresentacao__missao {
+.apresentacao__secundario {
     width: auto;
     order: 2;
     display: flex;
@@ -89,13 +90,13 @@ body {
     text-align: center;
 }
 
-.apresentacao__missao__titulo {
+.apresentacao__secundario__titulo {
     font-family: var(--fonte-primaria);
     font-size: 2.25rem;
     font-weight: 600;
 }
 
-.apresentacao__missao__texto {
+.apresentacao__secundario__texto {
     font-family: var(--fonte-primaria);
     font-size: 1.5rem;
     gap: 32px;
@@ -108,6 +109,7 @@ body {
     align-items: center;
     gap: 32px;
     margin: 5% 0% 5% 0%;
+    order: 3;
 }
 
 .apresentacao__links__subtitulo {

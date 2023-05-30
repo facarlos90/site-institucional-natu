@@ -147,7 +147,6 @@ body {
     font-size: 1rem;
     font-weight: 600;
     color: var(--cor-texto);
-
 }
 
 @media (max-width: 1200px) {

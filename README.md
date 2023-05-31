@@ -19,11 +19,15 @@ Além disso, o site também pode fornecer informações sobre a localização, f
 
 # :hammer: Funcionalidades do projeto
 
-- `Funcionalidade 1`: Página Inicial - História da Empresa - Missão, Visão e Valores - Redes Sociais
+- `Funcionalidade 1`: Página Inicial - História da Empresa - Missão, Visão e Valores
+- `Funcionalidade 2`: Página Quem Somos - História dos Donos da Empresa - Redes Sociais
+- `Funcionalidade 3`: Página Produtos - Lista das Categorias de Produtos Oferecidos pela Empresa
+- `Funcionalidade 4`: Página de Serviços - Em construção
+
 
 # 📁 Acesso ao projeto
 
-Você pode acessar o código do projeto inicial ou baixá-lo.
+Você pode acessar o código do projeto inicial, clicando no link do Vercel ou baixá-lo.
 
 # 🛠️ Abrir e rodar o projeto
 

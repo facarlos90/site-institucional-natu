@@ -20,14 +20,26 @@ table {
     text-align: center;
 }
 
-td, th {
-    text-align: right;
+td {
+    text-align: left;
     padding: 0% 10% 0% 0%;
   }
+
+th {
+    text-align: right;
+}
+
+.icones {
+    display: flex;
+    width: 70%;
+}
 
 .image {
     width: 50%;
 }
+
+
+
 
 @media (max-width: 1200px) {
 
@@ -37,6 +49,11 @@ td, th {
 
     td {
         font-size: 1.25rem;
+    }
+
+    .icones {
+        flex-wrap: wrap;
+        gap: 32px;
     }
 
     .image {

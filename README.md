@@ -22,7 +22,7 @@ Além disso, o site também pode fornecer informações sobre a localização, f
 - `Funcionalidade 1`: Página Inicial - História da Empresa - Missão, Visão e Valores
 - `Funcionalidade 2`: Página Quem Somos - História dos Donos da Empresa - Redes Sociais
 - `Funcionalidade 3`: Página Produtos - Lista das Categorias de Produtos Oferecidos pela Empresa
-- `Funcionalidade 4`: Página de Serviços - Em construção
+- `Funcionalidade 4`: Página de Serviços - Em construção  
 
 
 # 📁 Acesso ao projeto

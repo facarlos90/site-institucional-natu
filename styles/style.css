@@ -180,6 +180,14 @@ body {
         order: 2;
     }
 
+    .apresentacao__links {
+        padding: 15% 0% 5% 0%;
+    }
+
+    .apresentacao__links__subtitulo {
+        text-align: center;
+    }
+
     .apresentacao__links__navegacao {
         width: 95%;
     }

@@ -9,7 +9,25 @@
     font-size: 2.25rem;
     font-family: var(--fonte-primaria);
     padding: 0% 15%;
-    margin: 2% 0% 5% 0%;
+    margin: 2% 0% 2% 0%;
+}
+
+.principal__subtitulo {
+    font-size: 1.25rem;
+    font-family: var(--fonte-primaria);
+    padding: 0% 0% 2% 0%;
+
+}
+
+.principal__clientes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:16px;
+}
+
+.principal__clientes__comentarios {
+    width: 35%;
 }
 
 table {
@@ -18,6 +36,7 @@ table {
     font-size: 1.5rem;
     padding: 0% 5%;
     text-align: center;
+    color: var(--cor-texto);
 }
 
 td {
@@ -38,6 +57,19 @@ th {
     width: 50%;
 }
 
+.principal__restaurantes {
+    display: flex;
+    justify-content: space-between;
+    gap: 5%;
+    padding: 0% 0% 2% 0%;
+}
+
+.principal__restaurantes__texto {
+    font-family: var(--fonte-primaria);
+    font-size: 1rem;
+    color: var(--cor-texto);
+    text-align: center;
+}
 
 
 
@@ -45,6 +77,12 @@ th {
 
     .principal__titulo {
         font-size: 1.5rem;
+        padding: 0% 0% 2% 0%;
+    }
+
+    .principal__subtitulo {
+        text-align: center;
+        padding: 0% 0% 5% 0%;
     }
 
     td {
@@ -58,6 +96,28 @@ th {
 
     .image {
         width: 60px;
+    }
+
+    .principal__clientes {
+        padding: 5% 0% 10% 0%;
+    }
+
+    .principal__clientes__comentarios {
+        width: 95%;
+    }
+
+    .principal__restaurantes {
+      flex-direction: column;
+    }
+
+    .principal__restaurantes__imagem {
+        width: 200px;
+        margin: auto;
+        display: block;
+    }
+
+    .principal__restaurantes__bloco {
+        padding: 10% 0% 10% 0%;
     }
 
 }

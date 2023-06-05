@@ -10,12 +10,14 @@
     font-family: var(--fonte-primaria);
     padding: 0% 15%;
     margin: 2% 0% 2% 0%;
+    text-align: center;
 }
 
 .principal__subtitulo {
     font-size: 1.25rem;
     font-family: var(--fonte-primaria);
     padding: 0% 0% 2% 0%;
+    text-align: center;
 
 }
 
@@ -30,7 +32,7 @@
     width: 35%;
 }
 
-table {
+.tabela__produtos {
     width: 75%;
     font-family: var(--fonte-primaria);
     font-size: 1.5rem;
@@ -39,13 +41,14 @@ table {
     color: var(--cor-texto);
 }
 
-td {
+.tabela__produtos__linhas {
     text-align: left;
     padding: 0% 10% 0% 0%;
   }
 
 th {
     text-align: right;
+    font-size: 1.5rem;
 }
 
 .icones {
@@ -71,7 +74,22 @@ th {
     text-align: center;
 }
 
+dl {
+    font-family: var(--fonte-primaria);
+    font-size: 1.25rem;
+    color: var(--cor-texto);
+}
 
+.parceiros__titulo {
+    font-size: 1.5rem;
+    font-family: var(--fonte-primaria);
+    padding: 0% 5%;
+    font-weight: 600;
+}
+
+.parceiros__tabela {
+    padding: 0% 0% 0% 5% ;
+}
 
 @media (max-width: 1200px) {
 

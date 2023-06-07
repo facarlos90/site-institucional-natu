@@ -91,6 +91,53 @@ dl {
     padding: 0% 0% 0% 5% ;
 }
 
+.contato {
+    font-family: var(--fonte-primaria);
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 1.8;
+}
+
+.contato__apresentacao {
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    align-items: center;
+    padding: 1% 0%;
+}
+
+.contato__apresentacao__imagem {
+    width: 75%;
+}
+
+.contato__mapa__titulo {
+    padding: 1% 0%;
+}
+
+.contato__botao {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    margin: 2% 0% 2% 0%;
+}
+
+.contato__links {
+    font-family: var(--fonte-primaria);
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    background-color: var(--cor-acao);
+    color: var(--cor-fundo);
+    border-radius: 8px;
+    padding: 15.5px 0%;
+    width: 25%;
+    gap: 16px;
+    display: flex;
+    justify-content: center;
+}
+
 @media (max-width: 1200px) {
 
     .principal__titulo {
@@ -137,5 +184,30 @@ dl {
     .principal__restaurantes__bloco {
         padding: 10% 0% 10% 0%;
     }
+
+    .contato {
+        flex-direction: column;
+    }
+
+    .contato__apresentacao {
+        flex-wrap: wrap;
+    }
+
+    .contato__apresentacao__texto {
+        order: 2;
+    }
+
+    .contato__apresentacao__imagem {
+        order: 1;
+    }
+
+    .contato__email {
+        font-size: 1.25rem;
+    }
+
+    .contato__links {
+        width: 75%;
+    }
+
 
 }

@@ -14,8 +14,6 @@ Trata-se de um site institucional para a empresa de produtos naturais, em que tr
 
 ## Detalhes do projeto
 
-Textos e imagens que descrevam seu projeto, suas conquistas, seus desafios, próximos passos, etc...
-
 <p align="center">
 <img src="http://img.shields.io/static/v1?label=STATUS&message=FINALIZADO&color=GREEN&style=for-the-badge"/>
 </p>

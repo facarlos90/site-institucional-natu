@@ -1,21 +1,32 @@
-# Site Institucional
+# Site Institucional Empório Natu
 
-<div align="center">
+Trata-se de um site institucional para a empresa de produtos naturais, em que trabalho atualmente.
 
-![banner_readme_site)natu](https://github.com/facarlos90/site-institucional-natu/assets/126310044/4dbf61c7-ef8d-46de-92c3-7ea3cb833c4d)
+| :placard: Vitrine.Dev |     |
+| -------------  | --- |
+| :sparkles: Nome        | **Site Institucional - Empório Natu**
+| :label: Tecnologias | html, css
+| :rocket: URL         | https://github.com/facarlos90/site-institucional-natu.git
+| :fire: Desafio     |
 
-</div>
+<!-- Inserir imagem com a #vitrinedev ao final do link -->
+![](https://raw.githubusercontent.com/facarlos90/site-institucional-natu/main/capa.png#vitrinedev)
+
+## Detalhes do projeto
+
+Textos e imagens que descrevam seu projeto, suas conquistas, seus desafios, próximos passos, etc...
 
 <p align="center">
 <img src="http://img.shields.io/static/v1?label=STATUS&message=FINALIZADO&color=GREEN&style=for-the-badge"/>
 </p>
 
 Projeto em desenvolvimento para colocar em prática e fixar o conhecimento adquirido nos Cursos básicos de Git, GitHub, HTML e CSS da Alura. 
-Trata-se de um site institucional para a empresa de produtos naturais, em que trabalho atualmente.
 
 O site permitirá que as pessoas encontrem de uma maneira intuitiva e amigável, informações sobre a empresa, sua história, missão, visão e valores, bem como os produtos e serviços que oferecemos.
 
 Além disso, o site também pode fornecer informações sobre a localização, formas de contato, horário de funcionamento e serviços adicionais disponíveis.
+
+PS.: Os textos do site foram gerados em conjunto com a ferramenta ChatGPT.
 
 # :hammer: Funcionalidades do projeto
 

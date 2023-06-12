@@ -149,6 +149,145 @@ body {
     color: var(--cor-texto);
 }
 
+.principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.principal__titulo {
+    font-size: 2.25rem;
+    font-family: var(--fonte-primaria);
+    padding: 0% 15%;
+    margin: 2% 0% 2% 0%;
+    text-align: center;
+}
+
+.principal__subtitulo {
+    font-size: 1.25rem;
+    font-family: var(--fonte-primaria);
+    padding: 0% 0% 2% 0%;
+    text-align: center;
+
+}
+
+.principal__clientes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:16px;
+}
+
+.principal__clientes__comentarios {
+    width: 35%;
+}
+
+.tabela__produtos {
+    width: 75%;
+    font-family: var(--fonte-primaria);
+    font-size: 1.5rem;
+    padding: 0% 5%;
+    text-align: center;
+    color: var(--cor-texto);
+}
+
+.tabela__produtos__linhas {
+    text-align: left;
+    padding: 0% 10% 0% 0%;
+  }
+
+th {
+    text-align: right;
+    font-size: 1.5rem;
+}
+
+.icones {
+    display: flex;
+    width: 70%;
+}
+
+.image {
+    width: 50%;
+}
+
+.principal__restaurantes {
+    display: flex;
+    justify-content: space-between;
+    gap: 5%;
+    padding: 0% 0% 2% 0%;
+}
+
+.principal__restaurantes__texto {
+    font-family: var(--fonte-primaria);
+    font-size: 1rem;
+    color: var(--cor-texto);
+    text-align: center;
+}
+
+dl {
+    font-family: var(--fonte-primaria);
+    font-size: 1.25rem;
+    color: var(--cor-texto);
+}
+
+.parceiros__titulo {
+    font-size: 1.5rem;
+    font-family: var(--fonte-primaria);
+    padding: 0% 5%;
+    font-weight: 600;
+}
+
+.parceiros__tabela {
+    padding: 0% 0% 0% 5% ;
+}
+
+.contato {
+    font-family: var(--fonte-primaria);
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 1.8;
+}
+
+.contato__apresentacao {
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    align-items: center;
+    padding: 1% 0%;
+}
+
+.contato__apresentacao__imagem {
+    width: 75%;
+}
+
+.contato__mapa__titulo {
+    padding: 1% 0%;
+}
+
+.contato__botao {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    margin: 2% 0% 2% 0%;
+}
+
+.contato__links {
+    font-family: var(--fonte-primaria);
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    background-color: var(--cor-acao);
+    color: var(--cor-fundo);
+    border-radius: 8px;
+    padding: 15.5px 0%;
+    width: 25%;
+    gap: 16px;
+    display: flex;
+    justify-content: center;
+}
 
 @media (max-width: 1200px) {
 
@@ -196,4 +335,77 @@ body {
     .rodape {
         padding: 30% 0% 5% 0%;    
     }
+    
+    .principal__titulo {
+        font-size: 1.5rem;
+        padding: 0% 0% 2% 0%;
+    }
+
+    .principal__subtitulo {
+        text-align: center;
+        padding: 0% 0% 5% 0%;
+    }
+
+    td {
+        font-size: 1.25rem;
+    }
+
+    .icones {
+        flex-wrap: wrap;
+        gap: 32px;
+    }
+
+    .image {
+        width: 60px;
+    }
+
+    .principal__clientes {
+        padding: 5% 0% 10% 0%;
+    }
+
+    .principal__clientes__comentarios {
+        width: 95%;
+    }
+
+    .principal__restaurantes {
+      flex-direction: column;
+    }
+
+    .principal__restaurantes__imagem {
+        width: 200px;
+        margin: auto;
+        display: block;
+    }
+
+    .principal__restaurantes__bloco {
+        padding: 10% 0% 10% 0%;
+    }
+
+    .contato {
+        flex-direction: column;
+    }
+
+    .contato__apresentacao {
+        flex-wrap: wrap;
+    }
+
+    .contato__apresentacao__texto {
+        order: 2;
+    }
+
+    .contato__apresentacao__imagem {
+        order: 1;
+    }
+
+    .contato__email {
+        font-size: 1.25rem;
+    }
+
+    .contato__links {
+        width: 75%;
+    }
+    
+    div#container {
+        overflow-x: auto;
+        }
 }
